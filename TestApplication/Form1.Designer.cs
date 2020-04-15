@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnDante = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnDante
@@ -40,21 +41,33 @@
             this.btnDante.Text = "Dante!";
             this.btnDante.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(62, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
+            // 
             // FrmDante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(274, 87);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnDante);
             this.Name = "FrmDante";
             this.Text = "Dante";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnDante;
+        private System.Windows.Forms.Label label1;
     }
 }
 
